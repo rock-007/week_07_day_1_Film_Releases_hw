@@ -10,9 +10,17 @@ console.log(films)
 
     return (
         <>
-        <ul>
+        <div className="releaseBox">
+        <h2>Up coming Film Releases for Uk</h2>
+
+        <ul className="filmsRelease">
         {eachMovie}
         </ul>
+        <div className="upcomingRelese">
+        <h3><a href="https://www.imdb.com/calendar/?region=gb"> View more upcoming releases >> </a>
+        </h3>
+        </div>
+        </div>
         </>
     )
 
