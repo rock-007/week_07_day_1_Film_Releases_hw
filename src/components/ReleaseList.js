@@ -10,7 +10,9 @@ console.log(films)
 
     return (
         <>
+        <ul>
         {eachMovie}
+        </ul>
         </>
     )
 

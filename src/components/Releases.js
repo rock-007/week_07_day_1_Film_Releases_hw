@@ -5,7 +5,7 @@ const Releases = ({movie}) =>{
 
     return (
         <>
-        <h1>{movie}</h1>
+        <l1>{movie}</l1>
         </>
     )
 
